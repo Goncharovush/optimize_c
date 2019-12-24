@@ -1,0 +1,6 @@
+﻿  compare_ivc.c
+C:\Users\New user_2\Desktop\opy\md_asa_lib\libasa\compare_ivc.c(7,10): fatal error C1083: Cannot open include file: 'asa.h': No such file or directory
+  create_ivc.c
+C:\Users\New user_2\Desktop\opy\md_asa_lib\libasa\create_ivc.c(2,10): fatal error C1083: Cannot open include file: 'asa.h': No such file or directory
+  simulate_ivc.c
+C:\Users\New user_2\Desktop\opy\md_asa_lib\libasa\simulate_ivc.c(6,59): warning C4133: '=': incompatible types - from 'PyObject *' to 'char *'

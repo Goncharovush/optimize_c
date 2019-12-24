@@ -1,0 +1,225 @@
+\hypertarget{asa_8h}{}\doxysubsection{Файл C\+:/\+Users/\+New user\+\_\+2/\+Desktop/c\+\_\+lib\+\_\+with\+\_\+score/md\+\_\+asa\+\_\+lib/include/asa.h}
+\label{asa_8h}\index{C:/Users/New user\_2/Desktop/c\_lib\_with\_score/md\_asa\_lib/include/asa.h@{C:/Users/New user\_2/Desktop/c\_lib\_with\_score/md\_asa\_lib/include/asa.h}}
+{\ttfamily \#include \char`\"{}stdint.\+h\char`\"{}}\newline
+\doxysubsubsection*{Структуры данных}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structversion__t}{version\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structserver__t}{server\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structasa__settings__t}{asa\+\_\+settings\+\_\+t}}
+\item 
+struct \mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Макросы}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{asa_8h_a3472d8cdbb788d5f1815b3522595bc49}\label{asa_8h_a3472d8cdbb788d5f1815b3522595bc49}} 
+\#define {\bfseries E\+X\+P\+O\+RT}
+\item 
+\#define \mbox{\hyperlink{asa_8h_acddb2ccb7be3d768d16abfd230d468eb}{M\+A\+X\+\_\+\+N\+U\+M\+\_\+\+P\+O\+I\+N\+TS}}~1000
+\item 
+\#define \mbox{\hyperlink{asa_8h_afd8d2762c8197088289fd6c26c7f8457}{C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+N\+O\+NE}}~0
+\item 
+\#define \mbox{\hyperlink{asa_8h_a305c4bef96f18fccf00164a0360b72f5}{C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+R\+E\+S\+I\+S\+T\+OR}}~1
+\item 
+\#define \mbox{\hyperlink{asa_8h_a2124a4932125b039745472bc4cf06a6b}{C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+C\+A\+P\+A\+C\+I\+T\+OR}}~2
+\item 
+\#define \mbox{\hyperlink{asa_8h_a45225e0a7c657b895b8802d4ffc8f768}{C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+A\+U\+TO}}~0
+\item 
+\#define \mbox{\hyperlink{asa_8h_a32d23630cacd2e5851d341c2598d2079}{C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+M\+A\+N\+U\+AL}}~1
+\item 
+\mbox{\Hypertarget{asa_8h_a06a58d58368a525f56d5bbc0b7596739}\label{asa_8h_a06a58d58368a525f56d5bbc0b7596739}} 
+\#define {\bfseries A\+P\+I\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+A\+J\+OR}~0
+\item 
+\mbox{\Hypertarget{asa_8h_ab91d6a2aef1b817c5fc0eb5ed4f5d74d}\label{asa_8h_ab91d6a2aef1b817c5fc0eb5ed4f5d74d}} 
+\#define {\bfseries A\+P\+I\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+M\+I\+N\+OR}~1
+\item 
+\mbox{\Hypertarget{asa_8h_ad177b1857a46bdaca609fa13cebfa4c9}\label{asa_8h_ad177b1857a46bdaca609fa13cebfa4c9}} 
+\#define {\bfseries A\+P\+I\+\_\+\+V\+E\+R\+S\+I\+O\+N\+\_\+\+B\+U\+G\+F\+IX}~1
+\item 
+\mbox{\Hypertarget{asa_8h_a0df1c9b2047d697be1332f0392f9cc31}\label{asa_8h_a0df1c9b2047d697be1332f0392f9cc31}} 
+\#define {\bfseries status\+\_\+t}~int
+\item 
+\mbox{\Hypertarget{asa_8h_aadbab714ce7548f02f951a6232f6203a}\label{asa_8h_aadbab714ce7548f02f951a6232f6203a}} 
+\#define {\bfseries message\+\_\+t}~char
+\item 
+\#define \mbox{\hyperlink{asa_8h_aa4de6fa875125fb82fd8ebf9b0a995dd}{A\+S\+A\+\_\+\+OK}}~0
+\item 
+\#define \mbox{\hyperlink{asa_8h_a0b3818ce8b3fd60fb8e132ae6813e9c5}{S\+E\+R\+V\+E\+R\+\_\+\+R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+E\+R\+R\+OR}}~-\/1
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+E\+X\+P\+O\+RT \mbox{\hyperlink{structversion__t}{version\+\_\+t}} \mbox{\hyperlink{asa_8h_a1cb0fc0099f24ee67aec5801da73a94b}{Get\+Library\+Version}} (void)
+\item 
+E\+X\+P\+O\+RT \mbox{\hyperlink{structversion__t}{version\+\_\+t}} \mbox{\hyperlink{asa_8h_a0da5ba0c446b79ab2a352b6cdfa1e963}{Get\+A\+P\+I\+Version}} (void)
+\item 
+E\+X\+P\+O\+RT status\+\_\+t \mbox{\hyperlink{asa_8h_a6f6b96263e745e1f7cf87f7287591b76}{Set\+Settings}} (\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$Server, \mbox{\hyperlink{structasa__settings__t}{asa\+\_\+settings\+\_\+t}} $\ast$Settings)
+\item 
+E\+X\+P\+O\+RT status\+\_\+t \mbox{\hyperlink{asa_8h_a53ebea12371122cf78aa3955d6bcd717}{Get\+Settings}} (\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$Server, \mbox{\hyperlink{structasa__settings__t}{asa\+\_\+settings\+\_\+t}} $\ast$Settings)
+\item 
+E\+X\+P\+O\+RT status\+\_\+t \mbox{\hyperlink{asa_8h_acdc641d8cc4fd1f8fd00454ef41addc8}{Get\+I\+V\+Curve}} (\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$Server, \mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}} $\ast$I\+VC, size\+\_\+t size)
+\item 
+E\+X\+P\+O\+RT status\+\_\+t \mbox{\hyperlink{asa_8h_aabfa8277ff5eb7b16436238a54aa4d18}{Trigger\+Measurement}} (\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$Server)
+\item 
+E\+X\+P\+O\+RT void \mbox{\hyperlink{asa_8h_a387155c4d91febe1a801ab6b83523dae}{Set\+Min\+VC}} (double min\+\_\+v, double min\+\_\+c)
+\item 
+E\+X\+P\+O\+RT double \mbox{\hyperlink{asa_8h_a564be881878e4549af2349303a93cea6}{Compare\+Ivc}} (\mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}} $\ast$a, \mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}} $\ast$b, size\+\_\+t size)
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Подробное описание}
+Библиотека для управления аналоговым сигнатурным анализатором. Позволяет подключиться к серверно-\/аппаратной части, управлять настройками оборудования и получать сигнатуры. 
+
+\doxysubsubsection{Макросы}
+\mbox{\Hypertarget{asa_8h_aa4de6fa875125fb82fd8ebf9b0a995dd}\label{asa_8h_aa4de6fa875125fb82fd8ebf9b0a995dd}} 
+\index{asa.h@{asa.h}!ASA\_OK@{ASA\_OK}}
+\index{ASA\_OK@{ASA\_OK}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{ASA\_OK}{ASA\_OK}}
+{\footnotesize\ttfamily \#define A\+S\+A\+\_\+\+OK~0}
+
+Всё работает штатно 
+
+См. определение в файле asa.\+h строка 34
+
+\mbox{\Hypertarget{asa_8h_a2124a4932125b039745472bc4cf06a6b}\label{asa_8h_a2124a4932125b039745472bc4cf06a6b}} 
+\index{asa.h@{asa.h}!COMPONENT\_MODEL\_TYPE\_CAPACITOR@{COMPONENT\_MODEL\_TYPE\_CAPACITOR}}
+\index{COMPONENT\_MODEL\_TYPE\_CAPACITOR@{COMPONENT\_MODEL\_TYPE\_CAPACITOR}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{COMPONENT\_MODEL\_TYPE\_CAPACITOR}{COMPONENT\_MODEL\_TYPE\_CAPACITOR}}
+{\footnotesize\ttfamily \#define C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+C\+A\+P\+A\+C\+I\+T\+OR~2}
+
+Конденсатор 
+
+См. определение в файле asa.\+h строка 21
+
+\mbox{\Hypertarget{asa_8h_afd8d2762c8197088289fd6c26c7f8457}\label{asa_8h_afd8d2762c8197088289fd6c26c7f8457}} 
+\index{asa.h@{asa.h}!COMPONENT\_MODEL\_TYPE\_NONE@{COMPONENT\_MODEL\_TYPE\_NONE}}
+\index{COMPONENT\_MODEL\_TYPE\_NONE@{COMPONENT\_MODEL\_TYPE\_NONE}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{COMPONENT\_MODEL\_TYPE\_NONE}{COMPONENT\_MODEL\_TYPE\_NONE}}
+{\footnotesize\ttfamily \#define C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+N\+O\+NE~0}
+
+Неопределённый тип 
+
+См. определение в файле asa.\+h строка 19
+
+\mbox{\Hypertarget{asa_8h_a305c4bef96f18fccf00164a0360b72f5}\label{asa_8h_a305c4bef96f18fccf00164a0360b72f5}} 
+\index{asa.h@{asa.h}!COMPONENT\_MODEL\_TYPE\_RESISTOR@{COMPONENT\_MODEL\_TYPE\_RESISTOR}}
+\index{COMPONENT\_MODEL\_TYPE\_RESISTOR@{COMPONENT\_MODEL\_TYPE\_RESISTOR}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{COMPONENT\_MODEL\_TYPE\_RESISTOR}{COMPONENT\_MODEL\_TYPE\_RESISTOR}}
+{\footnotesize\ttfamily \#define C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+R\+E\+S\+I\+S\+T\+OR~1}
+
+Резистор 
+
+См. определение в файле asa.\+h строка 20
+
+\mbox{\Hypertarget{asa_8h_a45225e0a7c657b895b8802d4ffc8f768}\label{asa_8h_a45225e0a7c657b895b8802d4ffc8f768}} 
+\index{asa.h@{asa.h}!COMPONENT\_TRIGGER\_AUTO@{COMPONENT\_TRIGGER\_AUTO}}
+\index{COMPONENT\_TRIGGER\_AUTO@{COMPONENT\_TRIGGER\_AUTO}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{COMPONENT\_TRIGGER\_AUTO}{COMPONENT\_TRIGGER\_AUTO}}
+{\footnotesize\ttfamily \#define C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+A\+U\+TO~0}
+
+Автоматический 
+
+См. определение в файле asa.\+h строка 23
+
+\mbox{\Hypertarget{asa_8h_a32d23630cacd2e5851d341c2598d2079}\label{asa_8h_a32d23630cacd2e5851d341c2598d2079}} 
+\index{asa.h@{asa.h}!COMPONENT\_TRIGGER\_MANUAL@{COMPONENT\_TRIGGER\_MANUAL}}
+\index{COMPONENT\_TRIGGER\_MANUAL@{COMPONENT\_TRIGGER\_MANUAL}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{COMPONENT\_TRIGGER\_MANUAL}{COMPONENT\_TRIGGER\_MANUAL}}
+{\footnotesize\ttfamily \#define C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+M\+A\+N\+U\+AL~1}
+
+Ручной 
+
+См. определение в файле asa.\+h строка 24
+
+\mbox{\Hypertarget{asa_8h_acddb2ccb7be3d768d16abfd230d468eb}\label{asa_8h_acddb2ccb7be3d768d16abfd230d468eb}} 
+\index{asa.h@{asa.h}!MAX\_NUM\_POINTS@{MAX\_NUM\_POINTS}}
+\index{MAX\_NUM\_POINTS@{MAX\_NUM\_POINTS}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{MAX\_NUM\_POINTS}{MAX\_NUM\_POINTS}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+N\+U\+M\+\_\+\+P\+O\+I\+N\+TS~1000}
+
+Максимально возможное количество точек кривой 
+
+См. определение в файле asa.\+h строка 17
+
+\mbox{\Hypertarget{asa_8h_a0b3818ce8b3fd60fb8e132ae6813e9c5}\label{asa_8h_a0b3818ce8b3fd60fb8e132ae6813e9c5}} 
+\index{asa.h@{asa.h}!SERVER\_RESPONSE\_ERROR@{SERVER\_RESPONSE\_ERROR}}
+\index{SERVER\_RESPONSE\_ERROR@{SERVER\_RESPONSE\_ERROR}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{SERVER\_RESPONSE\_ERROR}{SERVER\_RESPONSE\_ERROR}}
+{\footnotesize\ttfamily \#define S\+E\+R\+V\+E\+R\+\_\+\+R\+E\+S\+P\+O\+N\+S\+E\+\_\+\+E\+R\+R\+OR~-\/1}
+
+Некорректный ответ сервера 
+
+См. определение в файле asa.\+h строка 35
+
+
+
+\doxysubsubsection{Функции}
+\mbox{\Hypertarget{asa_8h_a564be881878e4549af2349303a93cea6}\label{asa_8h_a564be881878e4549af2349303a93cea6}} 
+\index{asa.h@{asa.h}!CompareIvc@{CompareIvc}}
+\index{CompareIvc@{CompareIvc}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{CompareIvc()}{CompareIvc()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT double Compare\+Ivc (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}} $\ast$}]{a,  }\item[{\mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}} $\ast$}]{b,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+Функция для сравнения двух кривых. Возвращает степень визуальной схожести кривых 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em size} & Kоличество точек кривой, обычно равно параметру Number\+Points \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{asa_8h_a0da5ba0c446b79ab2a352b6cdfa1e963}\label{asa_8h_a0da5ba0c446b79ab2a352b6cdfa1e963}} 
+\index{asa.h@{asa.h}!GetAPIVersion@{GetAPIVersion}}
+\index{GetAPIVersion@{GetAPIVersion}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{GetAPIVersion()}{GetAPIVersion()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT \mbox{\hyperlink{structversion__t}{version\+\_\+t}} Get\+A\+P\+I\+Version (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Функция для получения A\+PI -\/ версии \mbox{\Hypertarget{asa_8h_acdc641d8cc4fd1f8fd00454ef41addc8}\label{asa_8h_acdc641d8cc4fd1f8fd00454ef41addc8}} 
+\index{asa.h@{asa.h}!GetIVCurve@{GetIVCurve}}
+\index{GetIVCurve@{GetIVCurve}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{GetIVCurve()}{GetIVCurve()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT status\+\_\+t Get\+I\+V\+Curve (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$}]{Server,  }\item[{\mbox{\hyperlink{structiv__curve__t}{iv\+\_\+curve\+\_\+t}} $\ast$}]{I\+VC,  }\item[{size\+\_\+t}]{size }\end{DoxyParamCaption})}
+
+Функция для получения измеренной сигнатуры. Возвращает результат последнего измерения в Manual Mode (Trigger\+Mode=C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+M\+A\+N\+U\+AL), в Auto (Trigger\+Mode=C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+A\+U\+TO) делает измерение и возвращает результат 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em size} & Желаемое количество точек кривой, обычно равно параметру Number\+Points \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{asa_8h_a1cb0fc0099f24ee67aec5801da73a94b}\label{asa_8h_a1cb0fc0099f24ee67aec5801da73a94b}} 
+\index{asa.h@{asa.h}!GetLibraryVersion@{GetLibraryVersion}}
+\index{GetLibraryVersion@{GetLibraryVersion}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{GetLibraryVersion()}{GetLibraryVersion()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT \mbox{\hyperlink{structversion__t}{version\+\_\+t}} Get\+Library\+Version (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Функция для получения версии используемой библиотеки \mbox{\Hypertarget{asa_8h_a53ebea12371122cf78aa3955d6bcd717}\label{asa_8h_a53ebea12371122cf78aa3955d6bcd717}} 
+\index{asa.h@{asa.h}!GetSettings@{GetSettings}}
+\index{GetSettings@{GetSettings}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{GetSettings()}{GetSettings()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT status\+\_\+t Get\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$}]{Server,  }\item[{\mbox{\hyperlink{structasa__settings__t}{asa\+\_\+settings\+\_\+t}} $\ast$}]{Settings }\end{DoxyParamCaption})}
+
+Функция для получения настроек сигнатурного анализатора \mbox{\Hypertarget{asa_8h_a387155c4d91febe1a801ab6b83523dae}\label{asa_8h_a387155c4d91febe1a801ab6b83523dae}} 
+\index{asa.h@{asa.h}!SetMinVC@{SetMinVC}}
+\index{SetMinVC@{SetMinVC}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{SetMinVC()}{SetMinVC()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT void Set\+Min\+VC (\begin{DoxyParamCaption}\item[{double}]{min\+\_\+v,  }\item[{double}]{min\+\_\+c }\end{DoxyParamCaption})}
+
+Функция для получения измеренной сигнатуры. 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\texttt{ in}}  & {\em min\+\_\+v} & Mинимальное значение напряжения, которое задает диапазон шума в кривых для вычисления их схожести \\
+\hline
+\mbox{\texttt{ in}}  & {\em min\+\_\+c} & Mинимальный значение тока, которое задает диапазон шума в кривых для вычисления их схожести \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{asa_8h_a6f6b96263e745e1f7cf87f7287591b76}\label{asa_8h_a6f6b96263e745e1f7cf87f7287591b76}} 
+\index{asa.h@{asa.h}!SetSettings@{SetSettings}}
+\index{SetSettings@{SetSettings}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{SetSettings()}{SetSettings()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT status\+\_\+t Set\+Settings (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$}]{Server,  }\item[{\mbox{\hyperlink{structasa__settings__t}{asa\+\_\+settings\+\_\+t}} $\ast$}]{Settings }\end{DoxyParamCaption})}
+
+Функция для установки настроек сигнатурного анализатора \mbox{\Hypertarget{asa_8h_aabfa8277ff5eb7b16436238a54aa4d18}\label{asa_8h_aabfa8277ff5eb7b16436238a54aa4d18}} 
+\index{asa.h@{asa.h}!TriggerMeasurement@{TriggerMeasurement}}
+\index{TriggerMeasurement@{TriggerMeasurement}!asa.h@{asa.h}}
+\doxyparagraph{\texorpdfstring{TriggerMeasurement()}{TriggerMeasurement()}}
+{\footnotesize\ttfamily E\+X\+P\+O\+RT status\+\_\+t Trigger\+Measurement (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structserver__t}{server\+\_\+t}} $\ast$}]{Server }\end{DoxyParamCaption})}
+
+Функция делает одно измерение и сохраняет его в буффер 

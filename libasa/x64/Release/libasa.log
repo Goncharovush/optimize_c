@@ -1,0 +1,16 @@
+﻿  compare_ivc.c
+compare_ivc.c(12): warning C4005: 'min' : macro redefinition
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(922) : see previous definition of 'min'
+compare_ivc.c(13): warning C4005: 'max' : macro redefinition
+          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h(921) : see previous definition of 'max'
+compare_ivc.c(252): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+compare_ivc.c(253): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+compare_ivc.c(351): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+  create_ivc.c
+  simulate_ivc.c
+     Creating library C:\Users\New user_2\Desktop\opy\md_asa_lib\x64\Release\libasa.lib and object C:\Users\New user_2\Desktop\opy\md_asa_lib\x64\Release\libasa.exp
+  Generating code
+c:\users\new user_2\desktop\opy\md_asa_lib\libasa\compare_ivc.c(189): warning C4756: overflow in constant arithmetic
+c:\users\new user_2\desktop\opy\md_asa_lib\libasa\compare_ivc.c(194): warning C4756: overflow in constant arithmetic
+  Finished generating code
+  libasa.vcxproj -> C:\Users\New user_2\Desktop\opy\md_asa_lib\x64\Release\libasa.dll

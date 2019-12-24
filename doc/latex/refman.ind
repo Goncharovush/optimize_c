@@ -1,0 +1,136 @@
+\begin{theindex}
+
+  \item {asa.h}
+    \subitem {ASA\_OK}, \hyperpage{7}
+    \subitem {CompareIvc}, \hyperpage{8}
+    \subitem {COMPONENT\_MODEL\_TYPE\_CAPACITOR}, \hyperpage{7}
+    \subitem {COMPONENT\_MODEL\_TYPE\_NONE}, \hyperpage{7}
+    \subitem {COMPONENT\_MODEL\_TYPE\_RESISTOR}, \hyperpage{7}
+    \subitem {COMPONENT\_TRIGGER\_AUTO}, \hyperpage{7}
+    \subitem {COMPONENT\_TRIGGER\_MANUAL}, \hyperpage{8}
+    \subitem {GetAPIVersion}, \hyperpage{8}
+    \subitem {GetIVCurve}, \hyperpage{9}
+    \subitem {GetLibraryVersion}, \hyperpage{9}
+    \subitem {GetSettings}, \hyperpage{9}
+    \subitem {MAX\_NUM\_POINTS}, \hyperpage{8}
+    \subitem {SERVER\_RESPONSE\_ERROR}, \hyperpage{8}
+    \subitem {SetMinVC}, \hyperpage{9}
+    \subitem {SetSettings}, \hyperpage{9}
+    \subitem {TriggerMeasurement}, \hyperpage{9}
+  \item {ASA\_OK}
+    \subitem {asa.h}, \hyperpage{7}
+  \item {asa\_settings\_t}, \hyperpage{2}
+    \subitem {DebugModelNominal}, \hyperpage{2}
+    \subitem {DebugModelType}, \hyperpage{2}
+    \subitem {DiscFreqHz}, \hyperpage{2}
+    \subitem {MaxCurrentMA}, \hyperpage{3}
+    \subitem {MeasureFlags}, \hyperpage{3}
+    \subitem {NumberChargePoints}, \hyperpage{3}
+    \subitem {NumberPoints}, \hyperpage{3}
+    \subitem {ProbeSignalFrequencyHz}, \hyperpage{3}
+    \subitem {TriggerMode}, \hyperpage{3}
+    \subitem {VoltageAmplV}, \hyperpage{4}
+
+  \indexspace
+
+  \item {C:/Users/New user\_2/Desktop/c\_lib\_with\_score/md\_asa\_lib/include/asa.h}, 
+		\hyperpage{6}
+  \item {C:/Users/New user\_2/Desktop/c\_lib\_with\_score/md\_asa\_lib/include/config.h}, 
+		\hyperpage{10}
+  \item {CompareIvc}
+    \subitem {asa.h}, \hyperpage{8}
+  \item {COMPONENT\_MODEL\_TYPE\_CAPACITOR}
+    \subitem {asa.h}, \hyperpage{7}
+  \item {COMPONENT\_MODEL\_TYPE\_NONE}
+    \subitem {asa.h}, \hyperpage{7}
+  \item {COMPONENT\_MODEL\_TYPE\_RESISTOR}
+    \subitem {asa.h}, \hyperpage{7}
+  \item {COMPONENT\_TRIGGER\_AUTO}
+    \subitem {asa.h}, \hyperpage{7}
+  \item {COMPONENT\_TRIGGER\_MANUAL}
+    \subitem {asa.h}, \hyperpage{8}
+  \item {Currents}
+    \subitem {iv\_curve\_t}, \hyperpage{4}
+
+  \indexspace
+
+  \item {DebugModelNominal}
+    \subitem {asa\_settings\_t}, \hyperpage{2}
+  \item {DebugModelType}
+    \subitem {asa\_settings\_t}, \hyperpage{2}
+  \item {DiscFreqHz}
+    \subitem {asa\_settings\_t}, \hyperpage{2}
+
+  \indexspace
+
+  \item {GetAPIVersion}
+    \subitem {asa.h}, \hyperpage{8}
+  \item {GetIVCurve}
+    \subitem {asa.h}, \hyperpage{9}
+  \item {GetLibraryVersion}
+    \subitem {asa.h}, \hyperpage{9}
+  \item {GetSettings}
+    \subitem {asa.h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {Host}
+    \subitem {server\_t}, \hyperpage{5}
+
+  \indexspace
+
+  \item {iv\_curve\_t}, \hyperpage{4}
+    \subitem {Currents}, \hyperpage{4}
+    \subitem {Voltages}, \hyperpage{4}
+
+  \indexspace
+
+  \item {MAX\_NUM\_POINTS}
+    \subitem {asa.h}, \hyperpage{8}
+  \item {MaxCurrentMA}
+    \subitem {asa\_settings\_t}, \hyperpage{3}
+  \item {MeasureFlags}
+    \subitem {asa\_settings\_t}, \hyperpage{3}
+
+  \indexspace
+
+  \item {NumberChargePoints}
+    \subitem {asa\_settings\_t}, \hyperpage{3}
+  \item {NumberPoints}
+    \subitem {asa\_settings\_t}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Port}
+    \subitem {server\_t}, \hyperpage{5}
+  \item {ProbeSignalFrequencyHz}
+    \subitem {asa\_settings\_t}, \hyperpage{3}
+
+  \indexspace
+
+  \item {SERVER\_RESPONSE\_ERROR}
+    \subitem {asa.h}, \hyperpage{8}
+  \item {server\_t}, \hyperpage{5}
+    \subitem {Host}, \hyperpage{5}
+    \subitem {Port}, \hyperpage{5}
+  \item {SetMinVC}
+    \subitem {asa.h}, \hyperpage{9}
+  \item {SetSettings}
+    \subitem {asa.h}, \hyperpage{9}
+
+  \indexspace
+
+  \item {TriggerMeasurement}
+    \subitem {asa.h}, \hyperpage{9}
+  \item {TriggerMode}
+    \subitem {asa\_settings\_t}, \hyperpage{3}
+
+  \indexspace
+
+  \item {version\_t}, \hyperpage{6}
+  \item {VoltageAmplV}
+    \subitem {asa\_settings\_t}, \hyperpage{4}
+  \item {Voltages}
+    \subitem {iv\_curve\_t}, \hyperpage{4}
+
+\end{theindex}

@@ -1,0 +1,25 @@
+{
+    "release": {
+        "hg_archive_args": [
+            "-X", ".hgtags",
+            "-X", ".hgignore",
+            "-X", ".hg_archival.txt",
+            "-X", "__pycache__",
+            "-X", "yellow_net",
+            "-X", ".epc_conf",
+            "-X", ".flake8",
+            "-X", "nodes.json",
+            "-X", "xmlrpc-c-1.43.08",
+            "-X", "redfish_templates.json" 
+        ],
+
+        "package": "md_asa_lib",
+
+        "setuptools_args": {
+            "description": "T-Platforms md_asa lib",
+            "author": "EPC MSU",
+            "author_email": "info@physlab.ru",
+            "url": "physlab.ru" 
+        }
+    }
+}

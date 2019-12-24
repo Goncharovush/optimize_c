@@ -1,0 +1,144 @@
+\hypertarget{structasa__settings__t}{}\doxysubsection{Структура asa\+\_\+settings\+\_\+t}
+\label{structasa__settings__t}\index{asa\_settings\_t@{asa\_settings\_t}}
+
+
+{\ttfamily \#include $<$asa.\+h$>$}
+
+\doxysubsubsection*{Поля данных}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{structasa__settings__t_aebc0c5e2f724f72150f301f8eff47360}{Disc\+Freq\+Hz}}
+\item 
+double \mbox{\hyperlink{structasa__settings__t_a7946c3ae102e7bb8238c565f1b23d5db}{Probe\+Signal\+Frequency\+Hz}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structasa__settings__t_a68fdeffacaf5b8628bdd58e7144db379}{Number\+Points}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structasa__settings__t_a1e5db41f1f9a539e9860160e201fd0ca}{Number\+Charge\+Points}}
+\item 
+double \mbox{\hyperlink{structasa__settings__t_a0bce50640d58edc827ec91c0a0e2d9a7}{Voltage\+AmplV}}
+\item 
+double \mbox{\hyperlink{structasa__settings__t_a275fb99d0d46a727e5cd90b5eb6eddce}{Max\+Current\+MA}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structasa__settings__t_ad6a4e255949bf0b32b0008cc5dd99649}{Measure\+Flags}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structasa__settings__t_afe065d3a77cd8e99a1304124506d9c55}{Debug\+Model\+Type}}
+\item 
+double \mbox{\hyperlink{structasa__settings__t_af6de5150bc5ab32b0342b2a83641ccc6}{Debug\+Model\+Nominal}}
+\item 
+uint32\+\_\+t \mbox{\hyperlink{structasa__settings__t_add6995d82766bb93467dcd52e7155113}{Trigger\+Mode}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsubsection{Подробное описание}
+Структура для хранения настроек сигнатурного анализатора 
+
+См. определение в файле asa.\+h строка 62
+
+
+
+\doxysubsubsection{Поля}
+\mbox{\Hypertarget{structasa__settings__t_af6de5150bc5ab32b0342b2a83641ccc6}\label{structasa__settings__t_af6de5150bc5ab32b0342b2a83641ccc6}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!DebugModelNominal@{DebugModelNominal}}
+\index{DebugModelNominal@{DebugModelNominal}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{DebugModelNominal}{DebugModelNominal}}
+{\footnotesize\ttfamily double Debug\+Model\+Nominal}
+
+Номинал измеряемого компонента (используется для отладки в виртуальном режиме). Для резистора в Омах. Для конденсатора в Фарадах. 
+
+См. определение в файле asa.\+h строка 72
+
+\mbox{\Hypertarget{structasa__settings__t_afe065d3a77cd8e99a1304124506d9c55}\label{structasa__settings__t_afe065d3a77cd8e99a1304124506d9c55}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!DebugModelType@{DebugModelType}}
+\index{DebugModelType@{DebugModelType}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{DebugModelType}{DebugModelType}}
+{\footnotesize\ttfamily uint32\+\_\+t Debug\+Model\+Type}
+
+Модель измеряемого элемента (используется для отладки в виртуальном режиме). Принимает одно из значений\+: C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+N\+O\+NE, C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+R\+E\+S\+I\+S\+T\+OR или C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+M\+O\+D\+E\+L\+\_\+\+T\+Y\+P\+E\+\_\+\+C\+A\+P\+A\+C\+I\+T\+OR. 
+
+См. определение в файле asa.\+h строка 71
+
+\mbox{\Hypertarget{structasa__settings__t_aebc0c5e2f724f72150f301f8eff47360}\label{structasa__settings__t_aebc0c5e2f724f72150f301f8eff47360}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!DiscFreqHz@{DiscFreqHz}}
+\index{DiscFreqHz@{DiscFreqHz}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{DiscFreqHz}{DiscFreqHz}}
+{\footnotesize\ttfamily double Disc\+Freq\+Hz}
+
+Частота дискретизации в Гц 
+
+См. определение в файле asa.\+h строка 64
+
+\mbox{\Hypertarget{structasa__settings__t_a275fb99d0d46a727e5cd90b5eb6eddce}\label{structasa__settings__t_a275fb99d0d46a727e5cd90b5eb6eddce}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!MaxCurrentMA@{MaxCurrentMA}}
+\index{MaxCurrentMA@{MaxCurrentMA}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{MaxCurrentMA}{MaxCurrentMA}}
+{\footnotesize\ttfamily double Max\+Current\+MA}
+
+Максимальный ток в мА (определяет выбор токоизмерительного резистора). Важно! Данный параметр вместе с параметром Voltage\+AmplV должен принимать значения строго в соответствии со спецификацией. 
+
+См. определение в файле asa.\+h строка 69
+
+\mbox{\Hypertarget{structasa__settings__t_ad6a4e255949bf0b32b0008cc5dd99649}\label{structasa__settings__t_ad6a4e255949bf0b32b0008cc5dd99649}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!MeasureFlags@{MeasureFlags}}
+\index{MeasureFlags@{MeasureFlags}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{MeasureFlags}{MeasureFlags}}
+{\footnotesize\ttfamily uint32\+\_\+t Measure\+Flags}
+
+Номер используемого флага. (Не используется!) 
+
+См. определение в файле asa.\+h строка 70
+
+\mbox{\Hypertarget{structasa__settings__t_a1e5db41f1f9a539e9860160e201fd0ca}\label{structasa__settings__t_a1e5db41f1f9a539e9860160e201fd0ca}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!NumberChargePoints@{NumberChargePoints}}
+\index{NumberChargePoints@{NumberChargePoints}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{NumberChargePoints}{NumberChargePoints}}
+{\footnotesize\ttfamily uint32\+\_\+t Number\+Charge\+Points}
+
+Количество точек, образующих кривую (все измерения). (Не используется!) 
+
+См. определение в файле asa.\+h строка 67
+
+\mbox{\Hypertarget{structasa__settings__t_a68fdeffacaf5b8628bdd58e7144db379}\label{structasa__settings__t_a68fdeffacaf5b8628bdd58e7144db379}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!NumberPoints@{NumberPoints}}
+\index{NumberPoints@{NumberPoints}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{NumberPoints}{NumberPoints}}
+{\footnotesize\ttfamily uint32\+\_\+t Number\+Points}
+
+Количество точек, образующих кривую (одно измерение) 
+
+См. определение в файле asa.\+h строка 66
+
+\mbox{\Hypertarget{structasa__settings__t_a7946c3ae102e7bb8238c565f1b23d5db}\label{structasa__settings__t_a7946c3ae102e7bb8238c565f1b23d5db}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!ProbeSignalFrequencyHz@{ProbeSignalFrequencyHz}}
+\index{ProbeSignalFrequencyHz@{ProbeSignalFrequencyHz}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{ProbeSignalFrequencyHz}{ProbeSignalFrequencyHz}}
+{\footnotesize\ttfamily double Probe\+Signal\+Frequency\+Hz}
+
+Частота пробного сигнала в Гц 
+
+См. определение в файле asa.\+h строка 65
+
+\mbox{\Hypertarget{structasa__settings__t_add6995d82766bb93467dcd52e7155113}\label{structasa__settings__t_add6995d82766bb93467dcd52e7155113}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!TriggerMode@{TriggerMode}}
+\index{TriggerMode@{TriggerMode}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{TriggerMode}{TriggerMode}}
+{\footnotesize\ttfamily uint32\+\_\+t Trigger\+Mode}
+
+Режим сохранения кривой. Принимает одно из значений \+: C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+A\+U\+T\+O-\/кривая обновляется при любом изменении параметров, C\+O\+M\+P\+O\+N\+E\+N\+T\+\_\+\+T\+R\+I\+G\+G\+E\+R\+\_\+\+M\+A\+N\+U\+A\+L-\/ кривая обновляется только при нажатии кнопки \char`\"{}Запуск измерений\char`\"{} 
+
+См. определение в файле asa.\+h строка 73
+
+\mbox{\Hypertarget{structasa__settings__t_a0bce50640d58edc827ec91c0a0e2d9a7}\label{structasa__settings__t_a0bce50640d58edc827ec91c0a0e2d9a7}} 
+\index{asa\_settings\_t@{asa\_settings\_t}!VoltageAmplV@{VoltageAmplV}}
+\index{VoltageAmplV@{VoltageAmplV}!asa\_settings\_t@{asa\_settings\_t}}
+\doxyparagraph{\texorpdfstring{VoltageAmplV}{VoltageAmplV}}
+{\footnotesize\ttfamily double Voltage\+AmplV}
+
+Амплитуда пробного сигнала по напряжению в В. Важно! Данный параметр вместе с параметром Max\+Current\+MA должен принимать значения строго в соответствии со спецификацией. 
+
+См. определение в файле asa.\+h строка 68
+
+
+
+Объявления и описания членов структуры находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+New user\+\_\+2/\+Desktop/c\+\_\+lib\+\_\+with\+\_\+score/md\+\_\+asa\+\_\+lib/include/\mbox{\hyperlink{asa_8h}{asa.\+h}}\end{DoxyCompactItemize}
